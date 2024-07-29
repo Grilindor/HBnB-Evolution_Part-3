@@ -1,0 +1,17 @@
+/* Style général pour un bouton */
+.login-button {
+    background-color: #4CAF50; /* Couleur de fond verte */
+    border: 1px solid #ddd;    /* Bordure */
+    border-radius: 10px;       /* Rayon de bordure */
+    color: white;              /* Couleur du texte */
+    padding: 10px 20px;        /* Padding */
+    text-align: center;        /* Alignement du texte */
+    text-decoration: none;     /* Suppression de la décoration du texte */
+    display: inline-block;     /* Affichage en ligne */
+    font-size: 16px;           /* Taille de la police */
+    margin: 20px 0;            /* Marge */
+    cursor: pointer;           /* Curseur de la souris */
+}
+.login-button:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
