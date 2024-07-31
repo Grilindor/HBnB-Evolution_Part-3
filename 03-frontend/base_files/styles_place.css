@@ -1,0 +1,122 @@
+header {
+    padding: 10px 20px;
+    background-color: #f1f1f1b0;
+    bottom: 0;
+    width: auto;
+	align-items: center; /* Centre les éléments verticalement */
+    display: flex;
+    justify-content: space-between; /* Espace les éléments horizontalement */
+
+}
+
+/* Style général pour un bouton */
+.login-button {
+    background-color: #4CAF50; /* Couleur de fond verte */
+    border: 1px solid #ddd;    /* Bordure */
+    border-radius: 10px;       /* Rayon de bordure */
+    color: white;              /* Couleur du texte */
+    padding: 10px;        /* Padding */
+    text-align: center;        /* Alignement du texte */
+    text-decoration: none;     /* Suppression de la décoration du texte */
+    display: inline-block;     /* Affichage en ligne */
+    font-size: 16px;           /* Taille de la police */
+    margin: 20px;            /* Marge */
+    cursor: pointer;           /* Curseur de la souris */
+}
+.login-button:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+
+/* Style pour l'image du lieu */
+.place-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.detail-botton {
+    background-color: #1d4c1e;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+main {
+    padding: 10px 1px 100px;
+    text-align: center;
+}
+
+
+
+.place-details {
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+}
+
+
+/*pour afficher l'image en grand*/
+.place-image-large {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/*pour les carrés des précédent review*/
+.place-info {
+    background-color: #4CAF50;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.reviews {
+
+    border-radius: 10px;
+    padding: 20px 20px 0px;
+    margin: 20px auto;
+    width: auto;
+
+    text-align: left;
+}
+
+.review-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.add-review {
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin: 20px auto;
+    width: auto;
+    text-align: left;
+}
+
+
+/* Style pour le pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

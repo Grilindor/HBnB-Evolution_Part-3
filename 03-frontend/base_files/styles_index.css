@@ -1,0 +1,103 @@
+header {
+    padding: 20px;
+    background-color: #f1f1f1;
+    bottom: 0;
+    width: auto;
+	align-items: center; /* Centre les éléments verticalement */
+    display: flex;
+    justify-content: space-between; /* Espace les éléments horizontalement */
+}
+
+.big {
+    font-weight: bold;
+}
+
+/* Style général pour un bouton */
+.login-button {
+    background-color: #4CAF50; /* Couleur de fond verte */
+    border: 1px solid #ddd;    /* Bordure */
+    border-radius: 10px;       /* Rayon de bordure */
+    color: white;              /* Couleur du texte */
+    padding: 10px;        /* Padding */
+    text-align: center;        /* Alignement du texte */
+    text-decoration: none;     /* Suppression de la décoration du texte */
+    display: inline-block;     /* Affichage en ligne */
+    font-size: 16px;           /* Taille de la police */
+    margin: 20px;            /* Marge */
+    cursor: pointer;           /* Curseur de la souris */
+}
+.login-button:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+
+.logo {
+    width: 150px;
+}
+
+
+body {
+
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.place-card {
+	background-color: #4CAF50;
+	color: black;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	font: 100px;
+	display: inline-block;
+	width: 300px;
+    vertical-align: top;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	text-align: center;
+
+
+}
+
+/* Style pour l'image du lieu */
+.place-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.detail-botton {
+    background-color: #1d4c1e;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lien {
+    color: white;
+    text-decoration: none;
+}
+
+.detail-botton:hover {
+    background-color: #153517; /* Couleur de fond au survol */
+}
+
+
+/* Style pour le pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
