@@ -72,11 +72,12 @@ document.addEventListener('DOMContentLoaded', () => {
             placesList.innerHTML = '';
 
             places.forEach(place => {
+                console.log(place.image_place);  // Ajout du log pour vérifier les chemins d'image
                 const placeCard = document.createElement('div');
                 placeCard.className = 'place-card';
                 placeCard.innerHTML = `
                 <h2>${place.description}</h2>
-                <img src="${place.image}" class="place-image">
+                <img src="${place.image_place}" class="place-image">
                 <p>Price per night: $ ${place.price_per_night}</p>
                 <p>Location: ${place.city_name}, ${place.country_name}</p>
                 <button id="details-button" data-place-id="${place.id}" class="detail-botton">View details</button>

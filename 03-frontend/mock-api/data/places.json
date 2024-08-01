@@ -1,6 +1,7 @@
 [
     {
         "id": "place-1",
+        "image_place": "images/Bc_place.jpg",
         "host_id": "user-1",
         "host_name": "John Doe",
         "description": "A lovely place to stay.",
