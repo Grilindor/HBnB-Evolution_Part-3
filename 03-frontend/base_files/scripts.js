@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 placeCard.className = 'place-card';
                 placeCard.innerHTML = `
                 <h2>${place.description}</h2>
-                <img src="" class="place-image">
+                <img src="${place.image}" class="place-image">
                 <p>Price per night: $ ${place.price_per_night}</p>
                 <p>Location: ${place.city_name}, ${place.country_name}</p>
                 <button id="details-button" data-place-id="${place.id}" class="detail-botton">View details</button>
