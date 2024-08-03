@@ -219,7 +219,7 @@ function displayReviews(place) {
         return stars;
     }
 
-    // Crée une nouvelle revue avec le token dans l'en-tête Authorization
+    // Crée une nouvelle revue avec le token dans l'en-tête Authorization sauvgard en json
     function createReview(reviewForm) {
         if (reviewForm) {
             const placeId = getIdFromUrl();
