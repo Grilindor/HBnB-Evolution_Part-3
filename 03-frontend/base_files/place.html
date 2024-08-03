@@ -10,41 +10,18 @@
     <header>
         <img src="logo.png" alt="Application logo" class="logo">
         <nav>
-            <a href="login.html" class="login-button">Login</a>
+            <a href="login.html" class="login-button" id="login-link">Login</a>
         </nav>
     </header>
     <main>
-        <section class="place-details">
-            <h1>
-                Beautiful Beach House
-            </h1>
-            <img src="Bc_place.jpg" alt="large place image" class="place-image-large">
-            <div class="place-info">
-                <p><B>Host: </B>John Doe</p>
-                <p><B>Price per night: </B>$150</p>
-                <p><B>Location: </B>Los Angeles, United States</p>
-                <p><B>Description: </B>A beatiful beach...</p>
-                <p><B>Amenities: </B>Wifi, Pool, ...</p>
-            </div>
-            <!-- Place details will be populated dynamically -->
+        <section id="place-details">
+            <h2 class="">Place Details</h2>
+            <div class="place-info"></div>
         </section>
-        <section class="reviews">
-            <h3>Reviews</h3>
-            <div class="review-card">
-                <p><strong>Jane Smith:</strong> Great place to stay!</p>
-                <p>Rating: ★★★★★</p>
-            </div>
-            <div class="review-card">
-                <p><strong>Robert Brown:</strong> Amazing location and very comfortable.</p>
-                <p>Rating: ★★★★★</p>
-            </div>
-            <!-- Additional review cards will be populated dynamically -->
+        <section id="reviews">
+            <div id="review-card"></div>
         </section>
-        <section class="add-review">
-            <h3><button onclick="">Add a Review</button></h3>
-            <form class="review-form">
-            </form>
-        </section>
+        <section id="add-review"></section>
     </main>
     <script src="scripts.js"></script>
     <footer><p>© 2024 HBNB Evolution. All rights reserved.</p></footer>
