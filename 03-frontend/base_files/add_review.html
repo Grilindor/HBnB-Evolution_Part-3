@@ -5,62 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Review</title>
     <link rel="stylesheet" href="styles_add_review.css">
+    <script src="scripts.js"></script>
+</head>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="Application logo" class="logo">
-        <nav>
-            <a href="login.html" class="login-button">Login</a>
-        </nav>
-    </header>
     <main>
-        <section class="place-details">
-            <h1>
-                Beautiful Beach House
-            </h1>
-            <img src="Bc_place.jpg" alt="large place image" class="place-image-large">
-            <div class="place-info">
-                <p><B>Host: </B>John Doe</p>
-                <p><B>Price per night: </B>$150</p>
-                <p><B>Location: </B>Los Angeles, United States</p>
-                <p><B>Description: </B>A beatiful beach...</p>
-                <p><B>Amenities: </B>Wifi, Pool, ...</p>
-            </div>
-            <!-- Place details will be populated dynamically -->
-        </section>
-        <section class="reviews">
-            <h3>Reviews</h3>
-            <div class="review-card">
-                <p><strong>Jane Smith:</strong> Great place to stay!</p>
-                <p>Rating: ★★★★★</p>
-            </div>
-            <div class="review-card">
-                <p><strong>Robert Brown:</strong> Amazing location and very comfortable.</p>
-                <p>Rating: ★★★★★</p>
-            </div>
-            <!-- Additional review cards will be populated dynamically -->
-        </section>
-            <section class="add-review">
-                <h3>Add a Review</h3>
-                <form class="add-review-form">
-                    <label for="review-text"></label>
+        <section>
+            <div class="visually-hidden">
+                <h2 class="">Add a Review</h2>
+                <form id="review-form" class="add-review-form">
+                    <label for="review-text">Your Review:</label>
                     <textarea id="review-text" name="review-text" required></textarea>
-                    <div>
-                        <label for="rating">Rating:</label>
-                        <select id="rating" name="rating" required>
-                            <option value="5">★★★★★</option>
-                            <option value="4">★★★★</option>
-                            <option value="3">★★★</option>
-                            <option value="2">★★</option>
-                            <option value="1">★</option>
-                    </div>
+                    <label for="review-rating">Rating:</label>
+                    <select id="review-rating" name="review-rating">
+                        <option value="5">5 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="2">2 Stars</option>
+                        <option value="1">1 Star</option>
                     </select>
-                    <button type="submit">Submit</button>
+                    <button type="submit">Submit Review</button>
                 </form>
-            </section>
-        </form>
+            </div>
+        </section>
     </main>
-    <script src="scripts.js"></script>
+    <footer>
+        <p>© 2024 HBNB Evolution. All rights reserved.</p>
+    </footer>
 </body>
-<footer><p>© 2024 HBNB Evolution. All rights reserved.</p></footer>
 </html>
